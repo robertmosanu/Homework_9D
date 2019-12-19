@@ -1,0 +1,71 @@
+
+public class Brad {
+public static void main(String[] args) {
+char i = '*';
+char j = 'o';
+char k = '|';
+char l = '_';
+    System.out.format
+("%9c%n" +
+"%9c%n" +
+"%8c%1c%1c%n" +
+"%7c%1c%1c%1c%1c%n" +
+"%6c%1c%1c%1c%1c%1c%1c%n" +
+"%5c%1c%1c%1c%1c%1c%1c%1c%1c%n" +
+"%9c%n" +
+"%8c%1c%1c%n" +
+"%7c%1c%1c%1c%1c%n" +
+"%6c%1c%1c%1c%1c%1c%1c%n" +
+"%5c%1c%1c%1c%1c%1c%1c%1c%1c%n" +
+"%9c%n" +
+"%8c%1c%1c%n" +
+"%7c%1c%1c%1c%1c%n" +
+"%6c%1c%1c%1c%1c%1c%1c%n" +
+"%5c%1c%1c%1c%1c%1c%1c%1c%1c%n" +
+"%8c%2c%n" +
+"%8c%2c%n" +
+"%8c%2c%n" +
+"%8c%1c%1c%n"
+, i
+,j
+,j,j,j
+,j,j,j,j,j
+,j,j,j,j,j,j,j
+,j,j,j,j,j,j,j,j,j
+,j
+,j,j,j
+,j,j,j,j,j
+,j,j,j,j,j,j,j
+,j,j,j,j,j,j,j,j,j
+,j
+,j,j,j
+,j,j,j,j,j
+,j,j,j,j,j,j,j
+,j,j,j,j,j,j,j,j,j
+,k,k,k,k,k,k
+,l,l,l);  
+}
+}
+
+
+Console:
+        *
+        o
+       ooo
+      ooooo
+     ooooooo
+    ooooooooo
+        o
+       ooo
+      ooooo
+     ooooooo
+    ooooooooo
+        o
+       ooo
+      ooooo
+     ooooooo
+    ooooooooo
+       | |
+       | |
+       | |
+       ___
